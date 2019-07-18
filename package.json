@@ -1,0 +1,26 @@
+{
+    "name": "@filipekiss/kiss-inc",
+    "version": "0.0.0",
+    "description": "My personal site",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:css": "tailwind build styles/app.css -o kiss.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/filipekiss/kiss-inc.git"
+    },
+    "author": "Filipe Kiss",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/filipekiss/kiss-inc/issues"
+    },
+    "homepage": "https://github.com/filipekiss/kiss-inc#readme",
+    "dependencies": {
+        "tailwindcss": "^1.0.4"
+    },
+    "devDependencies": {
+        "tailwind": "^4.0.0"
+    }
+}

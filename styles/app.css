@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+.neon {
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+            0 0 40px #ff71e0, 0 0 70px #ff71e0, 0 0 80px #ff71e0,
+            0 0 100px #ff71e0, 0 0 150px #ff71e0;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #ff71e0, 0 0 35px #ff71e0, 0 0 40px #ff71e0,
+            0 0 50px #ff71e0, 0 0 75px #ff71e0;
+    }
+}
+
+@tailwind utilities;
